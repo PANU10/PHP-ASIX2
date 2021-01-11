@@ -34,9 +34,9 @@
         include 'nav.php';
     ?>
 
-    <section>
-        <h2>ALTRES</h2>
-        <iframe width="460" height="215" src="https://www.youtube.com/embed/Vzq9nlT05e4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section>
+        <h2>TOP Goles FC Barcelona LaLiga Santander 2018/2019</h2>
+        <iframe width="460" height="210" src="https://www.youtube.com/embed/n0aGGicVz1Q" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <?php
