@@ -7,25 +7,27 @@
 </head>
 <body>
 
-    <p>Cognoms anteriors:<b>
+    <p>Cognom anteriors:<b>
 
-    <?php
-    session_start();
-    if(!empty($_SESSION['cognoms'])) {
-    echo $_SESSION["Cognoms"];
-    }?>
-    </p>
-    </b>
+        <?php
+        session_start();
+        if(!empty($_SESSION['Cognom'])) {
+        echo $_SESSION["Cognom"];
+        }?>
 
-    <p>Escriu el teus Cognnoms:</p>
+    </p></b>
+
+    <p>Escriu el teus Cognom:</p>
 
     <form action="cognoms-2.php" method="post">
 
-    Cognoms: <input type="text" name="Cognom"><br><br>
+    Cognom: <input type="text" name="Cognom"><br><br>
     <input type="submit" value="Guardar">
     <input type="reset" value="Esborrar">
+    <br><br>
     <a href="index.html">Inici</a>
 
-</form>
+    </form>
+
 </body>
 </html>
