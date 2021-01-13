@@ -50,7 +50,7 @@ if (empty($_POST['nom']) && (empty($_POST['cognom']) && (empty($_POST['password'
                   <p>Cognom: <input type=text name='cognom'/></p>
               </label>
               <label>
-                <p>Passwd: <input type=password name='password'/></p>
+                <p>Passwd: <input type=password name='password' required="required"/></p>
               </label>
               <p> Usuari
               <input type=radio name=usuari value=Professor required="required">Profe

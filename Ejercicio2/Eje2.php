@@ -9,7 +9,7 @@ $e= '1' ;
 
 echo "<p><b>A) El resultado de la función pasando como parámetros $a,$b,$c,$d,$e és:</p></b>";
 
-suma($a, $b, $c, $d, $e);
+suma($a1, $a2, $a3, $a4, $a5);
 function suma($a, $b, $c, $d, $e) {
   $resultado = $a + $b + $c + $d + $e;
   echo $resultado;
